@@ -97,7 +97,7 @@ function jupter(){
     var nJ = numeroJ * 26.4;   
 if(numeroJ,nkgfJ,nJ){
     document.getElementById('resultado').innerHTML =  numeroJ + " Kg";
-    document.getElementById('resultadoKgf').innerHTML = nkgfJ + " Kgf";
+    document.getElementById('resultadoKgf').innerHTML = nkgfJ.toFixed(1) + " Kgf";
     document.getElementById('resultadoN').innerHTML = nJ.toFixed(1) + " N";
     document.getElementById('astro').innerHTML = "Júpiter";
 }
@@ -115,7 +115,7 @@ function saturno(){
          
 if(numeroS,nkgfS,nS){
     document.getElementById('resultado').innerHTML =  numeroS + " Kg";
-    document.getElementById('resultadoKgf').innerHTML = nkgfS + " Kgf";
+    document.getElementById('resultadoKgf').innerHTML = nkgfS.toFixed(1) + " Kgf";
     document.getElementById('resultadoN').innerHTML = nS.toFixed(1) + " N";
     document.getElementById('astro').innerHTML = "Saturno";
 }
