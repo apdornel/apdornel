@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body {
+    background-image:url(/imagem/fundo.jpg);
+    background-repeat:repeat-y;
+}
+.fundo{
+    height: 100vh;
+    color:white;
+    text-align:center;
+    font-family:Arial,Times;
+}
+.calculadora{
+ 
+    background-color: rgba(0,0,0,0.8);
+    position:absolute;
+    color:white;
+    top:25%;
+    left:50%;
+    transform: translate(-50%,-15%);
+    border-radius:15px;
+    width: 550px;
+    
+}	
+
+.text {
+    height: 80px;
+    font-size:15px;
+    cursor:pointer;
+    background-color: rgb(31,31,31);
+    border:none;
+    color:white;
+    margin:3px;
+    font-family:Arial,Times;
+}
+
+.botao	{
+    height: 80px;
+    width: 80px;
+    font-size:25px;
+    cursor:pointer;
+    background-color: rgb(31,31,31);
+    border:none;
+    color:white;
+    margin:3px;
+    font-family:Arial,Times;
+}		
+.botao:hover{
+    background-color: black;
+}
+#resultado{
+    background-color: white;
+    height: 30px;
+    width: 520px;
+    margin:5px;
+    color:black;
+    text-align:right;
+    padding:5px;
+}
+
+#resultadoKgf{
+    background-color: white;
+    height: 30px;
+    width: 520px;
+    margin:5px ;
+    color:black;
+    text-align:right;
+    padding:5px;
+}
+
+#resultadoN{
+    
+    background-color: white;
+    height: 30px;
+    width: 520px;
+    margin:5px ;
+    color:black;
+    text-align:right;
+    padding:5px;
+    
+}
+.image{
+    
+    position:absolute;
+    top: 1080px;
+    left: 50%;
+    color:white;
+    transform: translate(-50%,0%);
+    
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+.insta{
+   position:absolute;
+   transform: translate(-50%, 150%);
+   left: 50%;
+}
