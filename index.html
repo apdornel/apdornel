@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="index.css">
+	<script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+	<div class="fundo">
+		<div class="calculadora">
+			<h2>Digite sua Massa e escolha o Local</h2>
+			<h4 class="title">Sua massa na Terra é (Kg) :</h4>
+			<p id="resultado"></p><h4 class="numb">Kg</h4>
+			<h3>Seu peso no(a) : <b id="astro">Terra</b></h3>
+			<h4 class="title">Quilograma-Força (Kgf) :</h4>
+			<p id="resultadoKgf"></p><h4 class="number">Kgf</h4>
+			<h4 class="title">Newtons (N) :</h4>
+			<p id="resultadoN"></p><h4 class="number1">N</h4>
+			<table>
+				<tr>
+					<td colspan="3"><button class="text" style="width: 255px" ;>
+							<h4>Escolha</h4>
+						</button> </td>
+
+					<td colspan="2"><button class="botao" onclick="clean()" style="width: 170px">Limpar</button> </td>
+					<td><button class="botao" onclick="back ()"> < </button>
+					</td>
+
+				</tr>
+				<tr>
+					<td><button class="botao" onclick="mercurio()"><img src="/imagem/1.png" alt="Mercúrio"></button>
+					</td>
+					<td><button class="botao" onclick="venus()"><img src="/imagem/2.png" alt="Vênus"></button> </td>
+					<td><button class="botao" onclick="lua()"><img src="/imagem/3.png" alt="Lua"></button> </td>
+					<td><button class="botao" onclick="insert('7')">7</button> </td>
+					<td><button class="botao" onclick="insert('8')">8</button> </td>
+					<td><button class="botao" onclick="insert('9')">9</button> </td>
+				</tr>
+				<tr>
+					<td><button class="botao" onclick="marte()"><img src="/imagem/4.png" alt="Marte"></button> </td>
+					<td><button class="botao" onclick="jupter()"><img src="/imagem/5.png" alt="Jupiter"></button> </td>
+					<td><button class="botao" onclick="saturno()"><img src="/imagem/6.png" alt="Saturno"></button> </td>
+					<td><button class="botao" onclick="insert('4')">4</button> </td>
+					<td><button class="botao" onclick="insert('5')">5</button> </td>
+					<td><button class="botao" onclick="insert('6')">6</button> </td>
+				</tr>
+				<tr>
+					<td><button class="botao" onclick="urano()"><img src="/imagem/7.png" alt="Urano"></button> </td>
+					<td><button class="botao" onclick="netuno()"><img src="/imagem/8.png" alt="Netuno"></button> </td>
+					<td><button class="botao" onclick="plutao()"><img src="/imagem/9.png" alt="Putão"></button> </td>
+					<td><button class="botao" onclick="insert('1')">1</button> </td>
+					<td><button class="botao" onclick="insert('2')">2</button> </td>
+					<td><button class="botao" onclick="insert('3')">3</button> </td>
+
+				</tr>
+				<tr>
+					<td><button class="text" ; onclick="sun()"><img src="/imagem/10.png" alt="Sol"> </button>
+					</td>
+					<td><button class="text" ; onclick="wStar()"><img src="/imagem/11.png" alt="Estrela-anã">
+						</button></td>
+					<td><button class="text" ; onclick="starN()"> <img src="/imagem/12.png"alt="Estrela de Neutrons"></button></td>
+					<td colspan="2"><button class="botao" style="width: 176px;" onclick="insert('0')">0</button></td>
+					<td><button class="botao" onclick="ponto('.')">.</button></td>
+				</tr>
+			</table>
+		</div>
+
+	</div>
+	<div class="image">
+		<div class="content">
+			<img src="" alt="Info" height="350px" width="600px">
+		</div>
+		<div class="logo">
+			<img src="/imagem/logo.png" alt="Praça da Ciência" height="220px" width="370px">
+		</div>
+		<div class="insta">
+			<img src="/imagem/insta.png" alt="@alerfdornell @mr.dornell" height="200px" width="200px">
+		</div>
+	</div>
+</body>
+
+</html>

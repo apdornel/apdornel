@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body {
+    background-image:url(/imagem/fundo.jpg);
+    background-repeat:repeat-y;
+}
+.fundo{
+    height: 100vh;
+    color:white;
+    text-align:center;
+    font-family:Arial,Times;
+}
+.calculadora{
+ 
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    color:white;
+    top:25%;
+    left:50%;
+    transform: translate(-50%,-15%);
+    border-radius:15px;
+    width: 550px;
+}	
+
+.text {
+    height: 80px;
+    font-size:15px;
+    cursor:pointer;
+    background-color: rgb(31,31,31);
+    border:none;
+    color:white;
+    margin:3px;
+    font-family:Arial,Times;
+}
+
+.botao{
+    font-weight: 700;
+    height: 80px;
+    width: 80px;
+    font-size:25px;
+    cursor:pointer;
+    background-color: rgb(31,31,31);
+    border:none;
+    color:white;
+    margin:3px;
+    font-family:Arial,Times;
+}		
+.botao:hover{
+    background-color: black;
+}
+
+.title{
+    margin-left: 8px;
+    text-align:left ;
+    transform: translate(0%,200%);
+    
+}
+#astro{
+    font-size: 25px;
+    
+}
+.numb{
+    margin: 0px 15px  ;
+    text-align:right ;
+    transform: translate(0%,-200%);
+}
+
+.number{ 
+    margin:0px 15px ;
+    text-align:right ;
+    transform: translate(0%,-145%);
+}
+
+.number1{ 
+    margin:0px 25px ;
+    text-align:right ;
+    transform: translate(0%,-150%);
+}
+
+#resultado{
+    background-color: white;
+    height: 35px;
+    width: 270px;
+    margin:5px auto 5px 225px;
+    color:black;
+    text-align:right;
+    padding:5px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#resultadoKgf{
+    background-color: white;
+    height: 30px;
+    width: 270px;
+    margin:5px auto 0px 220px;
+    color:black;
+    text-align:right;
+    padding:5px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+#resultadoN{
+    background-color: white;
+    height: 30px;
+    width: 270px;
+    margin:5px auto auto 220px;
+    color:black;
+    text-align:right;
+    padding:5px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+table{
+    margin: auto;
+}
+   
+.image{
+    
+    position:absolute;
+    top: 1080px;
+    left: 50%;
+    color:white;
+    transform: translate(-50%,0%);
+    
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+.insta{
+   position:absolute;
+   transform: translate(-50%, 150%);
+   left: 50%;
+}
